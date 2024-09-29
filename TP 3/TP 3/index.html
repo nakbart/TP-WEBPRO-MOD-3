@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>1303223042 - Nashrullah Akbar Thofiqurohman</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Tag div digunakan sebagai kontainer utama untuk membungkus seluruh konten halaman -->
+        <h1>Profil Pribadi</h1>
+
+        <!-- Tag img digunakan untuk menampilkan gambar profil pengguna -->
+        <img src="./image/sidakep.jpg" alt="Foto Profil" class="profile-photo">
+
+        <h2>Biodata Pribadi</h2>
+        <p>Halo Guys! Saya adalah mahasiswa Telkom University dari prodi S1 Teknologi Informasi.</p>
+
+        <!-- Tag table digunakan untuk menyusun data dalam bentuk tabel -->
+        <table>
+            <tr>
+                <!-- Tag th digunakan untuk memberikan judul kolom pada tabel -->
+                <th>Nama</th>
+                <td>Nashrullah Akbar Thofiqurohman</td> <!-- Tag td digunakan untuk memberikan data pada tabel -->
+            </tr>
+            <tr>
+                <th>Tanggal Lahir</th>
+                <td>24 Maret 2004</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>nakbart@student.telkomuniversity.ac.id</td>
+            </tr>
+        </table>
+
+        <h2>Video Perkenalan</h2>
+
+        <!-- Tag video digunakan untuk menampilkan video pada halaman web -->
+        <video controls>
+            <source src="./videos/lv_0_20240929211239.mp4" type="video/mp4">
+            Browser Anda tidak mendukung tag video.
+        </video>
+
+        <h2>Keterampilan</h2>
+        <table>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+
+        <div class="form-section">
+            <h2>Hubungi Saya</h2>
+
+            <!-- Tag form digunakan untuk membuat formulir yang dapat diisi oleh pengguna -->
+            <form>
+                <!-- Tag input digunakan untuk menerima masukan dari pengguna -->
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <!-- Tag button digunakan untuk membuat tombol pengiriman -->
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+
+        <div class="link-section">
+            <h2>Media Sosial</h2>
+            <!-- Tag a digunakan untuk membuat tautan ke halaman eksternal -->
+            <a href="https://www.instagram.com/realnakbart/?hl=en" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/nashrullah-akbar-thofiqurohman-a06989292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">LinkedIn</a> |
+            <a href="https://github.com/nakbart" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

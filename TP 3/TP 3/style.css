@@ -1,0 +1,94 @@
+/* Styling dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Container untuk konten utama */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling gambar profil */
+.profile-photo {
+    max-width: 150px;
+    border-radius: 50%;
+    /* Membuat gambar profil menjadi bulat */
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* Video styling */
+video {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Form section styling */
+.form-section {
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f8c;
+}
+
+/* Link section styling */
+.link-section {
+    text-align: center;
+}
+
+.link-section a {
+    color: #0077b5;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.link-section a:hover {
+    text-decoration: underline;
+}
